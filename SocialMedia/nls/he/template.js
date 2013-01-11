@@ -93,6 +93,8 @@
             	"linkTitle": "שתף מפה מעוצבת זו.",
             	"about": "אודות",
             	"aboutTitle": "אודות מפה זו",
+				"displayAs":"Display As",      
+            	"point":"Points",
             	"cluster": "צברים",
             	"heatmap": "צפיפות"
             },
@@ -145,6 +147,14 @@
 			"youtube": {
 				"title": "יוטיוב",
 				"description": "סרטון מתוך יוטיוב"
+			},
+			"panoramio":{
+				"title":"Panoramio",                     
+				"description":"Photos from Panoramio"    
+			},
+			"ushahidi":{
+				"title":"Ushahidi",                     
+				"description":"Incident reports from Ushahidi"    
 			}
         }
     })

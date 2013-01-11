@@ -93,6 +93,8 @@
             	"linkTitle": "共享此配置地图",
             	"about": "关于",
             	"aboutTitle": "关于本地图",
+				"displayAs":"Display As",      
+            	"point":"Points",
             	"cluster": "聚类",
             	"heatmap": "密度"
             },
@@ -108,12 +110,12 @@
             },
             "itemInfo": {
 				"createdLabel": "已创建",
-				"ratingsLabel": "评级",
+				"ratingsLabel": "次评级",
 				"ratingsLabelPlural": "次评级",
-				"viewsLabel": "浏览",
+				"viewsLabel": "次浏览",
 				"viewsLabelPlural": "次浏览",
 				"commentsLabel": "评论",
-				"commentsLabelPlural": "次评论",
+				"commentsLabelPlural": "评论",
 				"modifiedLabel": "上次修改时间",
 				"by": "修改者",
 				"separator": ","
@@ -145,6 +147,14 @@
 			"youtube": {
 				"title": "YouTube",
 				"description": "YouTube 中的视频"
+			},
+			"panoramio":{
+				"title":"Panoramio",                     
+				"description":"Photos from Panoramio"    
+			},
+			"ushahidi":{
+				"title":"Ushahidi",                     
+				"description":"Incident reports from Ushahidi"    
 			}
         }
     })

@@ -137,19 +137,22 @@ function showResults(results, resultNumber) {
         if (resultNumber) {
             numResult = resultNumber;
         }
+		var sr = new esri.SpatialReference(results.spatialReference);
         // new extent
         var extent = new esri.geometry.Extent(results.locations[numResult].extent);
+		extent.setSpatialReference(sr);
         // center of extent
-        var point = extent.getCenter();
+        var point = new esri.geometry.Point(results.locations[numResult].feature.geometry);
+		point.setSpatialReference(sr);
         // set marker
         configOptions.locatePoint[0] = point.x;
         configOptions.locatePoint[1] = point.y;
-        // set point marker
-        setMarker(point, results.locations[numResult].name);
         dojo.query('#address').attr('value', results.locations[numResult].name);
         configOptions.locateName = results.locations[numResult].name;
         // Set extent
         map.setExtent(extent);
+		// set point marker
+        setMarker(point, results.locations[numResult].name);
     } else {
         alertDialog(i18n.viewer.errors.noLocation);
         resetLocateLayer();
@@ -757,26 +760,35 @@ function webmapReturned(response) {
     configOptions.itemLayers = response.itemInfo.itemData.operationalLayers;
     // webmap basemap title by default
     configOptions.basemapTitle = response.itemInfo.itemData.baseMap.title;
-    dojo.connect(map, 'onLoad', function(){
-        // create basemap gallery widget
-        createBMGallery();
-        // set up social media
-        configureSocialMedia();
-        // set up layer menu
-        configureLayers();
-        // set up places menu
-        configurePlaces();
-        // resize map
-        resizeMap();
-        // init UI
-        configureUserInterface();
-        // start extent
-        setExtentValues();
-        // if local impact
-        if(typeof initLocalImpact === 'function' && configOptions.localImpact && configOptions.localImpact.enabled) {
-            initLocalImpact();
-        }
-    });
+	// once map is loaded
+	if (map.loaded) {
+		mapIsLoaded();
+	} else {
+		dojo.connect(map, "onLoad", function () {
+			mapIsLoaded();
+		});
+	}
+}
+
+function mapIsLoaded(){
+	// create basemap gallery widget
+	createBMGallery();
+	// set up social media
+	configureSocialMedia();
+	// set up layer menu
+	configureLayers();
+	// set up places menu
+	configurePlaces();
+	// resize map
+	resizeMap();
+	// init UI
+	configureUserInterface();
+	// start extent
+	setExtentValues();
+	// if local impact
+	if(typeof initLocalImpact === 'function' && configOptions.localImpact && configOptions.localImpact.enabled) {
+		initLocalImpact();
+	}
 }
 
 // Info window popup creation

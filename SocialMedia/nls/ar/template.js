@@ -93,6 +93,8 @@
             	"linkTitle": "مشاركة الخريطة المهيأة الحالية",
             	"about": "نبذة عن",
             	"aboutTitle": "نبذة عن هذه الخريطة",
+				"displayAs":"Display As",      
+            	"point":"Points",
             	"cluster": "تجمعات",
             	"heatmap": "كثافة"
             },
@@ -145,6 +147,14 @@
 			"youtube": {
 				"title": "اليوتيوب",
 				"description": "مقطع فيديو من اليوتيوب"
+			},
+			"panoramio":{
+				"title":"Panoramio",                     
+				"description":"Photos from Panoramio"    
+			},
+			"ushahidi":{
+				"title":"Ushahidi",                     
+				"description":"Incident reports from Ushahidi"    
 			}
         }
     })

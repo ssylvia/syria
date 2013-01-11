@@ -2,7 +2,7 @@
 ({
         "viewer": {
         	"main": {
-                "scaleBarUnits": "metric"
+                "scaleBarUnits": "imperinės sistemos"
             },
 			"errors": {
                 "createMap": "Žemėlapio sukurti nepavyko",
@@ -10,7 +10,7 @@
                 "bingError": "Diegiant šia aplikaciją reikalingas savas Bing Maps raktas.",
                 "noLegend": "Legendos nėra.",
                 "heatmap": "Intensyvumo žemėlapis šioje naršyklėje nepalaikomas.",
-                "noText": "Įveskite ieškomą vietą.",
+                "noText": "Įveskite vietą kurios ieškote.",
                 "noLocation": "Vietos surasti nepavyko.",
                 "integersOnly": "Šiame lauke galima įvesti tik sveikus skaičius.",
 				"nodesc": "Aprašo nėra."
@@ -93,6 +93,8 @@
             	"linkTitle": "Bendrinti konfigūruotą žemėlapį",
             	"about": "Apie",
             	"aboutTitle": "Apie šį žemėlapį",
+				"displayAs":"Display As",      
+            	"point":"Points",
             	"cluster": "Telkiniai",
             	"heatmap": "Tankis"
             },
@@ -145,6 +147,14 @@
 			"youtube": {
 				"title": "YouTube",
 				"description": "Video iš YouTube"
+			},
+			"panoramio":{
+				"title":"Panoramio",                     
+				"description":"Photos from Panoramio"    
+			},
+			"ushahidi":{
+				"title":"Ushahidi",                     
+				"description":"Incident reports from Ushahidi"    
 			}
         }
     })
