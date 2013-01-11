@@ -175,10 +175,20 @@ h1{
 }
 
 .map{
+  display:none;
 	position:absolute;
 	top:0;
 	height:100%;
 	width:100%;
+}
+
+#app{
+  position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+  border:none;
+  outline:none;
 }
 
 #mapBlind{
