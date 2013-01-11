@@ -357,7 +357,7 @@ function rightSideMenuButtons() {
         }
     }
     // Show Menu Bar
-    dojo.query('#topMenuBar').style('display', 'block');
+    //dojo.query('#topMenuBar').style('display', 'block');
 }
 
 // set up share menu

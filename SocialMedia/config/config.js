@@ -1,5 +1,5 @@
 var configOptions = {
-   "appid":"",
+   "appid":"17914bef3c8a4566942b786b0ed87eba",
    "webmap":"4ff792a3962547caad2d924413c40985",
    "socialDisplay":"point",
    "showFlickr":true,
