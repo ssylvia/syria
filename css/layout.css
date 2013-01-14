@@ -135,8 +135,7 @@ h1{
 }
 
 #leftPane {
-    width:22%;
-	min-width:300px;
+  width:300px;
 	height:100%;
 	font-size:0.9em;
 }
@@ -147,7 +146,6 @@ h1{
 }
 
 .description{
-	display:none;
 	padding:20px;
 }
 
@@ -160,7 +158,35 @@ h1{
 
 #legendHeader {
 	background:#444;
-    padding:5px 10px 5px 10px;
+  height:30px;
+  padding:5px 25px 0 25px;
+}
+
+#legendHeaderText{
+  display:none;
+}
+
+.layerTab{
+  position:absolute;
+  padding:5px 5px 0 5px;
+  height:20px;
+  background:#848484;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+  width:90px;
+  cursor:pointer;
+}
+
+.layerTab:hover{
+  height:25px;
+}
+
+.layerTabSelected{
+  height:25px;
+}
+
+#socialTab{
+  margin-left:105px;
 }
 
 #legendPanel{
@@ -169,9 +195,17 @@ h1{
 }
 
 .legend {
-	display:none;
 	padding:20px;
 	font-family:Arial, Helvetica, sans-serif;
+}
+
+.boldUnderline{
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.warning{
+  color:#C43D40;
 }
 
 .map{
@@ -192,6 +226,7 @@ h1{
 }
 
 #mapBlind{
+  display:none;
 	background-color:#fff;
 	position:relative;
 	height:100%;
@@ -204,6 +239,7 @@ h1{
 }
 
 #timeDisplay{
+  display:none;
 	position:absolute;
 	top: 5%;
 	background-color:#444;
@@ -217,6 +253,7 @@ h1{
 }
 
 #loadingCon{
+  display:none;
 	position:absolute;
 	z-index:99;
 	width:100%;

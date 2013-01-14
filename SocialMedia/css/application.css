@@ -1371,6 +1371,7 @@ a.mapSubmit:hover, a.mapSubmit:focus {
 /* ZOOM SLIDER */
 /*-------------------------------------------------- */
 #zoomSlider {
+    display:none;
     position: absolute;
     top: 37px;
     left: 0;
@@ -1579,4 +1580,8 @@ a.mapSubmit:hover, a.mapSubmit:focus {
 
 #aboutDialog .license {
     margin-bottom: 10px;
+}
+
+g,v{
+  cursor:pointer;
 }

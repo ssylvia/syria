@@ -492,6 +492,7 @@ function configureSocialMedia() {
     if (configOptions.showFlickr) {
         var flickrLayer = new social.flickr({
             map: map,
+            maxpage: 1,
             filterUsers: configOptions.filterFlickrUsers,
             filterWords: configOptions.filterWords,
             title: configOptions.flickrTitle,

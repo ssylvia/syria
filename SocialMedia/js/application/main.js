@@ -768,6 +768,13 @@ function webmapReturned(response) {
 			mapIsLoaded();
 		});
 	}
+
+  dojo.connect(map,"onUpdateEnd",function(){
+    if (!map.firstUpdate){
+      map.firstUpdate = true;
+      showPlacePoints();
+    }
+  });
 }
 
 function mapIsLoaded(){
@@ -863,3 +870,31 @@ dojo.addOnLoad(function () {
     // dojo ready
     setAppIdSettings(init);
 });
+
+
+//Iframe intergration function
+function showPlacePoints(){
+  var hide = ["flickr","youtube"];
+  var show = ["csv_9231_0", "csv_5785_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
+
+  dojo.forEach(hide,function(lyr){
+    map.getLayer(lyr).hide();
+  });
+
+  dojo.forEach(show,function(lyr){
+    map.getLayer(lyr).show();
+  });
+}
+
+function showSocialMediaPoints(){
+  var hide = ["csv_9231_0", "csv_5785_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
+  var show = ["flickr","youtube"];
+
+  dojo.forEach(hide,function(lyr){
+    map.getLayer(lyr).hide();
+  });
+
+  dojo.forEach(show,function(lyr){
+    map.getLayer(lyr).show();
+  });
+}

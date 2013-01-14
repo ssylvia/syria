@@ -167,8 +167,8 @@ function setDefaultConfigOptions() {
     configOptions.flickrIcon = "images/social/flickr16x16.png";
     configOptions.flickrSymbol = {
         "url": "images/map/flickr25x30.png",
-            "width": "18.75",
-            "height": "22.5"
+            "width": "30",
+            "height": "30"
     };
     configOptions.twitterID = "twitter";
     configOptions.twitterTitle = i18n.viewer.twitter.title;
@@ -194,8 +194,8 @@ function setDefaultConfigOptions() {
     configOptions.youtubeIcon = "images/social/youtube16x16.png";
     configOptions.youtubeSymbol = {
         "url": "images/map/youtube25x30.png",
-            "width": "18.75",
-            "height": "22.5"
+            "width": "30",
+            "height": "30"
     };
     configOptions.ushahidiID = "ushahidi";
     configOptions.ushahidiTitle = i18n.viewer.ushahidi.title;

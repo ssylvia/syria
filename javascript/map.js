@@ -151,7 +151,7 @@ function initMap(){
 			   if(response.values.webmap !== undefined) {configOptions.webmaps = getWebMaps(response.values.webmap);}
 			   if(response.values.tabs !== undefined) {configOptions.tabTitles = getTabs(response.values.tabs);}
 
-			   createMap();
+			   //createMap();
 		  },
 		  error: function(response){
 			var e = response.message;
@@ -159,7 +159,7 @@ function initMap(){
 		  }
 		});
 		 }else{
-			createMap();
+			//createMap();
 		 }
 }
 
@@ -681,3 +681,19 @@ function patchID() {  //patch id manager for use in apps.arcgis.com
 			mapLoaded();
 		}
 	}
+
+  function showPlaces(){
+    document.getElementById("app").contentWindow.showPlacePoints();
+    $("#placeLegend").show();
+    $("#socialLegend").hide();
+    $("#placeTab").addClass("layerTabSelected");
+    $("#socialTab").removeClass("layerTabSelected");
+  }
+
+  function showSocialMedia(){
+    document.getElementById("app").contentWindow.showSocialMediaPoints();
+    $("#placeLegend").hide();
+    $("#socialLegend").show();
+    $("#placeTab").removeClass("layerTabSelected");
+    $("#socialTab").addClass("layerTabSelected");
+  }

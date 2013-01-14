@@ -3,7 +3,7 @@
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">
-	<title>A story map presented by Esri</title>
+	<title>Syria's Deepening Woes - A story map presented by Esri</title>
     <link rel="stylesheet" type="text/css" href="//servicesbeta.esri.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/tundra/tundra.css">
     <link rel="stylesheet" type="text/css" href="//servicesbeta.esri.com/jsapi/arcgis/3.3/js/esri/css/esri.css" />
     <link rel="stylesheet" type="text/css" href="css/layout.css"/>
@@ -17,8 +17,9 @@
 		  ]
 		};
     </script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="//servicesbeta.esri.com/jsapi/arcgis/?v=3.3compact"></script>
-	<script type="text/javascript" src="javascript/map.js"></script>
+	  <script type="text/javascript" src="javascript/map.js"></script>
     <script type="text/javascript" src="javascript/layout.js"></script>
     <script type="text/javascript">
     var configOptions;
@@ -98,8 +99,8 @@
         <!--Header-->
       	<div id="headerArea" dojotype="dijit.layout.BorderContainer" region="top">
           <div id="titleText" dojotype="dijit.layout.ContentPane" region="center">
-          	<h1 id="title"></h1>
-            <p id="subtitle"></p>
+          	<h1 id="title">Syria's Deepening Woes</h1>
+            <p id="subtitle">The ongoing Syrian conflict has killed tens of thousands of people and brought suffering to millions. The world watches via social media despite occasional crackdowns by the Assad regime.</p>
           </div><!--/titleText-->
           <div id="logoArea" dojotype="dijit.layout.ContentPane" region="right">
             <div id="social"><a id="smLink" href="http://storymaps.esri.com" target="_blank">A story map </a><span  class='st_facebook' ></span><span  class='st_twitter' st_via='EsriStoryMaps'></span>
@@ -125,11 +126,16 @@
       	<!--Sidebar Section-->
         <div dojotype="dijit.layout.ContentPane" id="leftPane" region="left">
           <div id="descriptionPanel">
+            <div id="description0" class="description">Syria's humanitarian crisis continues to deepen as the nation's civil conflict approaches its two-year anniversary. Some 60,000 people have died in the civil war; more than 600,000 people have fled the country, and an estimated two million have been internally displaced. The nation's rich cultural and archeological sites have been extensively damaged. Even as Syria's past is being demolished, its future grows increasingly uncertain.<br><br>Explore Syria's geography and social media landscape by tapping the tabs below.</div>
           </div><!--/descriptionPanel-->
           <div id="legendHeader">
             <h4 id="legendHeaderText"></h4>
+            <div id="placeTab" class="layerTab layerTabSelected" onclick="showPlaces()">Places</div>
+            <div id="socialTab" class="layerTab" onclick="showSocialMedia()">Social Media</div>
           </div><!--/legendHeader-->
           <div id="legendPanel">
+            <div id="placeLegend" class="legend"><span class="boldUnderline">Zoom out</span> to explore city and refugee information. <span class="boldUnderline">Zoom in</span> for detail about conflict areas, archeological sites, military installations, and more. Zoom further to explore Syria's varied tapestry of dense urban enclaves, irrigated farms, and desert reaches.</div>
+            <div id="socialLegend" class="legend" style="display:none;">View recent YouTube videos and Flickr photos. The photos cover a variety of topics, while most videos focus on the ongoing conflict. <span class="warning"><strong>Warning:</strong></span> Some of the videos contain graphic images.</div>
           </div><!--/legendPanel-->
         </div><!--/leftPane-->
 
