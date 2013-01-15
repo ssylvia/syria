@@ -783,7 +783,16 @@ function webmapReturned(response) {
     else{
       parent.showSmallPlaceLegend();
     }
-  })
+  });
+
+  dojo.connect(map.infoWindow,"onSelectionChange",function(){
+    if(map.infoWindow._title.innerHTML.search("Flickr") > -1 || map.infoWindow._title.innerHTML.search("YouTube") > -1){
+      $("#reportItem").show();
+    }
+    else{
+      $("#reportItem").hide();
+    }
+  });
 }
 
 function mapIsLoaded(){
@@ -839,7 +848,9 @@ function createWebMap() {
             slider: false,
             wrapAround180: true,
             infoWindow: configOptions.customPopup,
-            isScrollWheelZoom: true
+            isScrollWheelZoom: true,
+            maxZoom:17,
+            minZoom:5
         },
         bingMapsKey: configOptions.bingMapsKey,
         geometryServiceURL: configOptions.geometryserviceurl
@@ -884,26 +895,38 @@ dojo.addOnLoad(function () {
 //Iframe intergration function
 function showPlacePoints(){
   var hide = ["flickr","youtube"];
-  var show = ["csv_9231_0", "csv_5785_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
+  var show = ["csv_9231_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
 
   dojo.forEach(hide,function(lyr){
-    map.getLayer(lyr).hide();
+    if(map.getLayer(lyr)){
+      map.getLayer(lyr).hide();
+    }
   });
 
   dojo.forEach(show,function(lyr){
-    map.getLayer(lyr).show();
+    if(map.getLayer(lyr)){
+      map.getLayer(lyr).show();
+    }
   });
+
+  map.infoWindow.hide();
 }
 
 function showSocialMediaPoints(){
-  var hide = ["csv_9231_0", "csv_5785_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
+  var hide = ["csv_9231_0", "csv_6734_0", "csv_5969_0", "csv_4224_0", "csv_3458_0", "csv_7156_0", "csv_1027_0"];
   var show = ["flickr","youtube"];
 
   dojo.forEach(hide,function(lyr){
-    map.getLayer(lyr).hide();
+    if(map.getLayer(lyr)){
+      map.getLayer(lyr).hide();
+    }
   });
 
   dojo.forEach(show,function(lyr){
-    map.getLayer(lyr).show();
+    if(map.getLayer(lyr)){
+      map.getLayer(lyr).show();
+    }
   });
+
+  map.infoWindow.hide();
 }
