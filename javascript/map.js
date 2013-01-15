@@ -697,3 +697,13 @@ function patchID() {  //patch id manager for use in apps.arcgis.com
     $("#placeTab").removeClass("layerTabSelected");
     $("#socialTab").addClass("layerTabSelected");
   }
+
+  function showLargePlaceLegend(){
+    $("#legendPlaceLarge").show();
+    $("#legendPlaceSmall").hide();
+  }
+
+  function showSmallPlaceLegend(){
+    $("#legendPlaceSmall").show();
+    $("#legendPlaceLarge").hide();
+  }

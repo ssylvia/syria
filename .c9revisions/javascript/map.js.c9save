@@ -18,3 +18,30 @@
 {"ts":1358203138170,"patch":[[{"diffs":[[0,"aPoints();\r\n"],[1,"    $(\"#placeLegend\").show();\r\n    $(\"#socialLegend\").hide();\r\n"],[0,"  }"]],"start1":22171,"start2":22171,"length1":15,"length2":78}]],"length":22249,"saved":false}
 {"ts":1358203141655,"patch":[[{"diffs":[[0,"\"#placeLegend\")."],[-1,"show"],[1,"hide"],[0,"();\r\n    $(\"#soc"]],"start1":22189,"start2":22189,"length1":36,"length2":36}]],"length":22249,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1358203161408,"patch":[[{"diffs":[[0,"#socialLegend\")."],[-1,"hide"],[1,"show"],[0,"();\r\n  }"]],"start1":22221,"start2":22221,"length1":28,"length2":28}]],"length":22249,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1358267773935,"patch":[[{"diffs":[[0,"ide();\r\n"],[1,"    $(\"#placeTab\").addClass(\"layerTabSelected\");\r\n    $(\"#socialTab\").removeClass(\"layerTabSelected\");\r\n"],[0,"  }\r\n"],[-1,""],[0,"\r\n  func"]],"start1":22062,"start2":22062,"length1":21,"length2":125},{"diffs":[[0,".show();\r\n  "],[-1,"}"],[1,"  $(\"#placeTab\").removeClass(\"layerTabSelected\");\r\n    $(\"#socialTab\").addClass(\"layerTabSelected\");\r\n  }\r\n  \r\n  func"]],"start1":22340,"start2":22340,"length1":13,"length2":129}]],"length":22469,"saved":false}
+{"ts":1358267775307,"patch":[[{"diffs":[[0,"\n  }\r\n  \r\n  func"],[1,"tion"]],"start1":22453,"start2":22453,"length1":16,"length2":20}]],"length":22473,"saved":false}
+{"ts":1358267776559,"patch":[[{"diffs":[[0,"\n  }\r\n  \r\n  function"],[1," show"]],"start1":22453,"start2":22453,"length1":20,"length2":25}]],"length":22478,"saved":false}
+{"ts":1358267779617,"patch":[[{"diffs":[[0,"  }\r\n  \r\n  function show"],[1,"Lar"]],"start1":22454,"start2":22454,"length1":24,"length2":27}]],"length":22481,"saved":false}
+{"ts":1358267780580,"patch":[[{"diffs":[[0," showLar"],[1,"geP"]],"start1":22473,"start2":22473,"length1":8,"length2":11}]],"length":22484,"saved":false}
+{"ts":1358267782123,"patch":[[{"diffs":[[0,"owLargeP"],[1,"laceLe"]],"start1":22476,"start2":22476,"length1":8,"length2":14}]],"length":22490,"saved":false}
+{"ts":1358267783139,"patch":[[{"diffs":[[0,"LargePlaceLe"],[1,"n"]],"start1":22478,"start2":22478,"length1":12,"length2":13}]],"length":22491,"saved":false}
+{"ts":1358267784546,"patch":[[{"diffs":[[0,"ePlaceLe"],[-1,"n"],[1,"gend"]],"start1":22482,"start2":22482,"length1":9,"length2":12}]],"length":22494,"saved":false}
+{"ts":1358267785759,"patch":[[{"diffs":[[0,"LargePlaceLegend"],[1,"()"]],"start1":22478,"start2":22478,"length1":16,"length2":18}]],"length":22496,"saved":false}
+{"ts":1358267787280,"patch":[[{"diffs":[[0,"Legend()"],[1,"{"]],"start1":22488,"start2":22488,"length1":8,"length2":9}]],"length":22497,"saved":false}
+{"ts":1358267788336,"patch":[[{"diffs":[[0,"aceLegend(){"],[1,"\r\n    \r\n  }"]],"start1":22485,"start2":22485,"length1":12,"length2":23}]],"length":22508,"saved":false}
+{"ts":1358267798919,"patch":[[{"diffs":[[0,"){\r\n    "],[1,"$(\"\")"],[0,"\r\n  }"]],"start1":22495,"start2":22495,"length1":13,"length2":18}]],"length":22513,"saved":false}
+{"ts":1358267799947,"patch":[[{"diffs":[[0,"\n    $(\""],[1,"#"],[0,"\")\r\n  }"]],"start1":22498,"start2":22498,"length1":15,"length2":16}]],"length":22514,"saved":false}
+{"ts":1358267800760,"patch":[[{"diffs":[[0,"    $(\"#"],[1,"legendPlaceLarge"],[0,"\")\r\n  }"]],"start1":22499,"start2":22499,"length1":15,"length2":31}]],"length":22530,"saved":false}
+{"ts":1358267804673,"patch":[[{"diffs":[[0,"eLarge\")"],[1,".show()"],[0,"\r\n  }"]],"start1":22517,"start2":22517,"length1":13,"length2":20}]],"length":22537,"saved":false}
+{"ts":1358267805918,"patch":[[{"diffs":[[0,").show()"],[1,";"],[0,"\r\n  }"]],"start1":22524,"start2":22524,"length1":13,"length2":14}]],"length":22538,"saved":false}
+{"ts":1358267812525,"patch":[[{"diffs":[[0,"\").show();\r\n"],[1,"    $(\"#legendPlaceLarge\").show();\r\n"],[0,"  }"]],"start1":22523,"start2":22523,"length1":15,"length2":51}]],"length":22574,"saved":false}
+{"ts":1358267817205,"patch":[[{"diffs":[[0," $(\"#legendPlace"],[-1,"Large"],[1,"Small"],[0,"\").show();\r\n  }"]],"start1":22538,"start2":22538,"length1":36,"length2":36}]],"length":22574,"saved":false}
+{"ts":1358267820366,"patch":[[{"diffs":[[0,"Small\")."],[-1,"show"],[1,"hide"],[0,"();\r\n  }"]],"start1":22554,"start2":22554,"length1":20,"length2":20}]],"length":22574,"saved":false}
+{"ts":1358267825994,"patch":[[{"diffs":[[0,"hide();\r\n  }"],[1,"\r\n  \r\n  function showLargePlaceLegend(){\r\n    $(\"#legendPlaceLarge\").show();\r\n    $(\"#legendPlaceSmall\").hide();\r\n  }"]],"start1":22562,"start2":22562,"length1":12,"length2":129}]],"length":22691,"saved":false}
+{"ts":1358267829740,"patch":[[{"diffs":[[0,"n showLargePlace"],[-1,"Legend"],[1,"Small"],[0,"(){\r\n    $(\"#leg"]],"start1":22589,"start2":22589,"length1":38,"length2":37}]],"length":22690,"saved":false}
+{"ts":1358267835439,"patch":[[{"diffs":[[0," $(\"#legendPlace"],[-1,"Large"],[1,"Small"],[0,"\").show();\r\n    "]],"start1":22618,"start2":22618,"length1":37,"length2":37}]],"length":22690,"saved":false}
+{"ts":1358267838828,"patch":[[{"diffs":[[0," $(\"#legendPlace"],[-1,"Small"],[1,"Large"],[0,"\").hide();\r\n  }"]],"start1":22654,"start2":22654,"length1":36,"length2":36}]],"length":22690,"saved":false}
+{"ts":1358267839720,"patch":[[{"diffs":[[0,"lected\");\r\n  }\r\n"],[-1,"  "],[0,"\r\n  function sho"]],"start1":22443,"start2":22443,"length1":34,"length2":32},{"diffs":[[0,";\r\n  }\r\n"],[-1,"  "],[0,"\r\n  func"]],"start1":22566,"start2":22566,"length1":18,"length2":16}]],"length":22686,"saved":false}
+{"ts":1358268209935,"patch":[[{"diffs":[[0,"rgePlace"],[-1,"Small"],[0,"(){\r\n   "]],"start1":22593,"start2":22593,"length1":21,"length2":16}]],"length":22681,"saved":false}
+{"ts":1358268212254,"patch":[[{"diffs":[[0,"unction show"],[-1,"Large"],[1,"Small"],[0,"Place(){\r\n  "]],"start1":22579,"start2":22579,"length1":29,"length2":29}]],"length":22681,"saved":false}
+{"ts":1358268216535,"patch":[[{"diffs":[[0,"allPlace"],[1,"Legend"],[0,"(){\r\n   "]],"start1":22593,"start2":22593,"length1":16,"length2":22}]],"length":22687,"saved":false}

@@ -130,3 +130,60 @@
 {"ts":1358203392691,"patch":[[{"diffs":[[0,"t\" src=\""],[1,"http:"],[0,"//ajax.a"]],"start1":938,"start2":938,"length1":16,"length2":21}]],"length":8383,"saved":false}
 {"ts":1358203553916,"patch":[[{"diffs":[[0,"s.</"],[-1,"span></"],[0,"div>"]],"start1":7683,"start2":7683,"length1":15,"length2":8}]],"length":8376,"saved":false}
 {"ts":1358203558153,"patch":[[{"diffs":[[0,"/strong>"],[1,"</span>"],[0," Some of"]],"start1":7634,"start2":7634,"length1":16,"length2":23}]],"length":8383,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1358267276268,"patch":[[{"diffs":[[0," class=\"layerTab"],[1," layerTabSelected"],[0,"\" onclick=\"showP"]],"start1":6784,"start2":6784,"length1":32,"length2":49}]],"length":8400,"saved":false}
+{"ts":1358267288032,"patch":[[{"diffs":[[0,"for "],[-1,"detail about "],[0,"conf"]],"start1":7202,"start2":7202,"length1":21,"length2":8},{"diffs":[[0,"yria"],[-1,"'s varied"],[1,"’s"],[0," tap"]],"start1":7302,"start2":7302,"length1":17,"length2":10}]],"length":8380,"saved":false}
+{"ts":1358267298829,"patch":[[{"diffs":[[0,"<title>Syria"],[-1,"'"],[1,"’"],[0,"s Deepening "]],"start1":242,"start2":242,"length1":25,"length2":25},{"diffs":[[0,"epening "],[-1,"Woe"],[1,"Crisi"],[0,"s - A st"]],"start1":259,"start2":259,"length1":19,"length2":21}]],"length":8382,"saved":false}
+{"ts":1358267304118,"patch":[[{"diffs":[[0,"E=9\">\r\n\t"],[1,"  "],[0,"<title>S"]],"start1":234,"start2":234,"length1":16,"length2":18}]],"length":8384,"saved":false}
+{"ts":1358267361792,"patch":[[{"diffs":[[0,"e\">Syria"],[-1,"'"],[1,"’"],[0,"s Deepen"]],"start1":4597,"start2":4597,"length1":17,"length2":17},{"diffs":[[0,"ing "],[-1,"Woe"],[1,"Crisi"],[0,"s</h"]],"start1":4614,"start2":4614,"length1":11,"length2":13}]],"length":8386,"saved":false}
+{"ts":1358267401495,"patch":[[{"diffs":[[0,"hic images.<"],[1,"<"],[0,"/div>\r\n     "]],"start1":7684,"start2":7684,"length1":24,"length2":25}]],"length":8387,"saved":false}
+{"ts":1358267402773,"patch":[[{"diffs":[[0,"images.<"],[1,"br"],[0,"</div>\r\n"]],"start1":7688,"start2":7688,"length1":16,"length2":18}]],"length":8389,"saved":false}
+{"ts":1358267403867,"patch":[[{"diffs":[[0,"ages.<br"],[1,">"],[0,"</div>\r\n"]],"start1":7690,"start2":7690,"length1":16,"length2":17}]],"length":8390,"saved":false}
+{"ts":1358267405479,"patch":[[{"diffs":[[0,"ges.<br>"],[1,"i"],[0,"</div>\r\n"]],"start1":7691,"start2":7691,"length1":16,"length2":17}]],"length":8391,"saved":false}
+{"ts":1358267406689,"patch":[[{"diffs":[[0,"ges.<br>"],[-1,"i"],[1,"\r\n              \r\n            "],[0,"</div>\r\n"]],"start1":7691,"start2":7691,"length1":17,"length2":46}]],"length":8420,"saved":false}
+{"ts":1358267408931,"patch":[[{"diffs":[[0,"        "],[1,"<i"],[0,"\r\n      "]],"start1":7707,"start2":7707,"length1":16,"length2":18}]],"length":8422,"saved":false}
+{"ts":1358267409714,"patch":[[{"diffs":[[0,"      <i"],[1,"mg"],[0,"\r\n      "]],"start1":7709,"start2":7709,"length1":16,"length2":18}]],"length":8424,"saved":false}
+{"ts":1358267411283,"patch":[[{"diffs":[[0,"    <img"],[1," sr"],[0,"\r\n      "]],"start1":7711,"start2":7711,"length1":16,"length2":19}]],"length":8427,"saved":false}
+{"ts":1358267411937,"patch":[[{"diffs":[[0," <img sr"],[1,"c"],[0,"\r\n      "]],"start1":7714,"start2":7714,"length1":16,"length2":17}]],"length":8428,"saved":false}
+{"ts":1358267413660,"patch":[[{"diffs":[[0,"<img src"],[1,"=\"\""],[0,"\r\n      "]],"start1":7715,"start2":7715,"length1":16,"length2":19}]],"length":8431,"saved":false}
+{"ts":1358267417751,"patch":[[{"diffs":[[0,"mg src=\""],[1,"images/"],[0,"\"\r\n     "]],"start1":7717,"start2":7717,"length1":16,"length2":23}]],"length":8438,"saved":false}
+{"ts":1358267424926,"patch":[[{"diffs":[[0,"\"images/"],[1,"SyriaLegendPlacesLarge"],[0,"\"\r\n     "]],"start1":7724,"start2":7724,"length1":16,"length2":38}]],"length":8460,"saved":false}
+{"ts":1358267426485,"patch":[[{"diffs":[[0,"cesLarge"],[1,".png"],[0,"\"\r\n     "]],"start1":7746,"start2":7746,"length1":16,"length2":20}]],"length":8464,"saved":false}
+{"ts":1358267429584,"patch":[[{"diffs":[[0,"rge.png\""],[1," alt="],[0,"\r\n      "]],"start1":7751,"start2":7751,"length1":16,"length2":21}]],"length":8469,"saved":false}
+{"ts":1358267430230,"patch":[[{"diffs":[[0,"ng\" alt="],[1,"\"\""],[0,"\r\n      "]],"start1":7756,"start2":7756,"length1":16,"length2":18}]],"length":8471,"saved":false}
+{"ts":1358267433750,"patch":[[{"diffs":[[0,"g\" alt=\""],[1,"legend"],[0,"\"\r\n     "]],"start1":7757,"start2":7757,"length1":16,"length2":22}]],"length":8477,"saved":false}
+{"ts":1358267438787,"patch":[[{"diffs":[[0,"   <img "],[1," "],[0,"src=\"ima"]],"start1":7712,"start2":7712,"length1":16,"length2":17}]],"length":8478,"saved":false}
+{"ts":1358267439917,"patch":[[{"diffs":[[0,"   <img "],[1,"id"],[0," src=\"im"]],"start1":7712,"start2":7712,"length1":16,"length2":18}]],"length":8480,"saved":false}
+{"ts":1358267441252,"patch":[[{"diffs":[[0," <img id"],[1,"=\"\""],[0," src=\"im"]],"start1":7714,"start2":7714,"length1":16,"length2":19}]],"length":8483,"saved":false}
+{"ts":1358267442343,"patch":[[{"diffs":[[0,"img id=\""],[1,"p"],[0,"\" src=\"i"]],"start1":7716,"start2":7716,"length1":16,"length2":17}]],"length":8484,"saved":false}
+{"ts":1358267443196,"patch":[[{"diffs":[[0,"mg id=\"p"],[1,"lave"],[0,"\" src=\"i"]],"start1":7717,"start2":7717,"length1":16,"length2":20}]],"length":8488,"saved":false}
+{"ts":1358267445068,"patch":[[{"diffs":[[0," id=\"pla"],[-1,"v"],[1,"c"],[0,"e\" src=\""]],"start1":7719,"start2":7719,"length1":17,"length2":17}]],"length":8488,"saved":false}
+{"ts":1358267448624,"patch":[[{"diffs":[[0,"g id=\"pl"],[-1,"ace"],[0,"\" src=\"i"]],"start1":7718,"start2":7718,"length1":19,"length2":16}]],"length":8485,"saved":false}
+{"ts":1358267449597,"patch":[[{"diffs":[[0,"img id=\""],[-1,"pl"],[0,"\" src=\"i"]],"start1":7716,"start2":7716,"length1":18,"length2":16}]],"length":8483,"saved":false}
+{"ts":1358267450010,"patch":[[{"diffs":[[0,"img id=\""],[1,"l"],[0,"\" src=\"i"]],"start1":7716,"start2":7716,"length1":16,"length2":17}]],"length":8484,"saved":false}
+{"ts":1358267451076,"patch":[[{"diffs":[[0,"mg id=\"l"],[1,"egend"],[0,"\" src=\"i"]],"start1":7717,"start2":7717,"length1":16,"length2":21}]],"length":8489,"saved":false}
+{"ts":1358267451801,"patch":[[{"diffs":[[0,"=\"legend"],[1,"P"],[0,"\" src=\"i"]],"start1":7722,"start2":7722,"length1":16,"length2":17}]],"length":8490,"saved":false}
+{"ts":1358267453193,"patch":[[{"diffs":[[0,"\"legendP"],[1,"laceL"],[0,"\" src=\"i"]],"start1":7723,"start2":7723,"length1":16,"length2":21}]],"length":8495,"saved":false}
+{"ts":1358267454606,"patch":[[{"diffs":[[0,"ndPlaceL"],[1,"a"],[0,"\" src=\"i"]],"start1":7728,"start2":7728,"length1":16,"length2":17}]],"length":8496,"saved":false}
+{"ts":1358267458577,"patch":[[{"diffs":[[0,"dPlaceLa"],[1,"r"],[0,"\" src=\"i"]],"start1":7729,"start2":7729,"length1":16,"length2":17}]],"length":8497,"saved":false}
+{"ts":1358267459529,"patch":[[{"diffs":[[0,"PlaceLar"],[1,"ge"],[0,"\" src=\"i"]],"start1":7730,"start2":7730,"length1":16,"length2":18}]],"length":8499,"saved":false}
+{"ts":1358267462901,"patch":[[{"diffs":[[0,"\"legend\""],[1,">"],[0,"\r\n      "]],"start1":7786,"start2":7786,"length1":16,"length2":17}]],"length":8500,"saved":false}
+{"ts":1358267469827,"patch":[[{"diffs":[[0,"=\"legend\">\r\n"],[1,"              <img id=\"legendPlaceLarge\" src=\"images/SyriaLegendPlacesLarge.png\" alt=\"legend\">\r\n"],[0,"            "]],"start1":7785,"start2":7785,"length1":24,"length2":120}]],"length":8596,"saved":false}
+{"ts":1358267474457,"patch":[[{"diffs":[[0," id=\"legendPlace"],[-1,"Large"],[1,"Small"],[0,"\" src=\"images/Sy"]],"start1":7815,"start2":7815,"length1":37,"length2":37}]],"length":8596,"saved":false}
+{"ts":1358267479504,"patch":[[{"diffs":[[0,"yriaLegendPlaces"],[-1,"Large"],[1,"Small"],[0,".png\" alt=\"legen"]],"start1":7851,"start2":7851,"length1":37,"length2":37}]],"length":8596,"saved":false}
+{"ts":1358267580725,"patch":[[{"diffs":[[0,"ges."],[-1,"<br>\r\n              <img id=\"legendPlaceLarge\" src=\"images/SyriaLegendPlacesLarge.png\" alt=\"legend\">\r\n              <img id=\"legendPlaceSmall\" src=\"images/SyriaLegendPlacesSmall.png\" alt=\"legend\">"],[0,"\r\n  "]],"start1":7691,"start2":7691,"length1":204,"length2":8}]],"length":8400,"saved":false}
+{"ts":1358267605409,"patch":[[{"diffs":[[0,"reaches."],[1,"\r\n              \r\n            "],[0,"</div>\r\n"]],"start1":7377,"start2":7377,"length1":16,"length2":46}]],"length":8430,"saved":false}
+{"ts":1358267606847,"patch":[[{"diffs":[[0,"        "],[1,"<br>\r\n              <img id=\"legendPlaceLarge\" src=\"images/SyriaLegendPlacesLarge.png\" alt=\"legend\">\r\n              <img id=\"legendPlaceSmall\" src=\"images/SyriaLegendPlacesSmall.png\" alt=\"legend\">"],[0,"\r\n      "]],"start1":7393,"start2":7393,"length1":16,"length2":212}]],"length":8626,"saved":false}
+{"ts":1358267610372,"patch":[[{"diffs":[[0,"    <br>"],[1,"<br>"],[0,"\r\n      "]],"start1":7397,"start2":7397,"length1":16,"length2":20}]],"length":8630,"saved":false}
+{"ts":1358267620658,"patch":[[{"diffs":[[0," images."],[1,"<br>\r\n              <img id=\"legendPlaceLarge\" src=\"images/SyriaLegendPlacesLarge.png\" alt=\"legend\">\r\n              <img id=\"legendPlaceSmall\" src=\"images/SyriaLegendPlacesSmall.png\" alt=\"legend\">"],[0,"\r\n      "]],"start1":7917,"start2":7917,"length1":16,"length2":212}]],"length":8826,"saved":false}
+{"ts":1358267622092,"patch":[[{"diffs":[[0," images."],[1,"\r\n            "],[0,"<br>\r\n  "]],"start1":7917,"start2":7917,"length1":16,"length2":30}]],"length":8840,"saved":false}
+{"ts":1358267623703,"patch":[[{"diffs":[[0,"            "],[1,"  "],[0,"<br>\r\n      "]],"start1":7927,"start2":7927,"length1":24,"length2":26}]],"length":8842,"saved":false}
+{"ts":1358267625137,"patch":[[{"diffs":[[0,"        <br>"],[1,"<br"],[0,"\r\n          "]],"start1":7933,"start2":7933,"length1":24,"length2":27}]],"length":8845,"saved":false}
+{"ts":1358267626459,"patch":[[{"diffs":[[0," <br><br"],[1,">"],[0,"\r\n      "]],"start1":7940,"start2":7940,"length1":16,"length2":17}]],"length":8846,"saved":false}
+{"ts":1358267629246,"patch":[[{"diffs":[[0,"r>\r\n"],[-1,"              <img id=\"legendPlaceLarge\" src=\"images/SyriaLegendPlacesLarge.png\" alt=\"legend\">\r\n"],[0,"    "]],"start1":7947,"start2":7947,"length1":104,"length2":8}]],"length":8750,"saved":false}
+{"ts":1358267634196,"patch":[[{"diffs":[[0,"/SyriaLegend"],[-1,"PlacesSmall"],[1,"SocialMedia"],[0,".png\" alt=\"l"]],"start1":8003,"start2":8003,"length1":35,"length2":35}]],"length":8750,"saved":false}
+{"ts":1358267640316,"patch":[[{"diffs":[[0,"egendPlaceSmall\""],[1," "],[0," src=\"images/Syr"]],"start1":7975,"start2":7975,"length1":32,"length2":33}]],"length":8751,"saved":false}
+{"ts":1358267642328,"patch":[[{"diffs":[[0,"eSmall\" "],[1,"class="],[0," src=\"im"]],"start1":7984,"start2":7984,"length1":16,"length2":22}]],"length":8757,"saved":false}
+{"ts":1358267643393,"patch":[[{"diffs":[[0,"\" class="],[1,"\"\""],[0," src=\"im"]],"start1":7990,"start2":7990,"length1":16,"length2":18}]],"length":8759,"saved":false}
+{"ts":1358267645246,"patch":[[{"diffs":[[0," class=\""],[1,"legImg"],[0,"\" src=\"i"]],"start1":7991,"start2":7991,"length1":16,"length2":22}]],"length":8765,"saved":false}
+{"ts":1358267651474,"patch":[[{"diffs":[[0,"ceSmall\""],[1," class=\"legImg\""],[0," src=\"im"]],"start1":7539,"start2":7539,"length1":16,"length2":31}]],"length":8780,"saved":false}
+{"ts":1358267652566,"patch":[[{"diffs":[[0,"ceLarge\""],[1," class=\"legImg\""],[0," src=\"im"]],"start1":7443,"start2":7443,"length1":16,"length2":31}]],"length":8795,"saved":false}

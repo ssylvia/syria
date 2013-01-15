@@ -3,7 +3,7 @@
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">
-	<title>Syria's Deepening Woes - A story map presented by Esri</title>
+	  <title>Syria’s Deepening Crisis - A story map presented by Esri</title>
     <link rel="stylesheet" type="text/css" href="//servicesbeta.esri.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/tundra/tundra.css">
     <link rel="stylesheet" type="text/css" href="//servicesbeta.esri.com/jsapi/arcgis/3.3/js/esri/css/esri.css" />
     <link rel="stylesheet" type="text/css" href="css/layout.css"/>
@@ -99,7 +99,7 @@
         <!--Header-->
       	<div id="headerArea" dojotype="dijit.layout.BorderContainer" region="top">
           <div id="titleText" dojotype="dijit.layout.ContentPane" region="center">
-          	<h1 id="title">Syria's Deepening Woes</h1>
+          	<h1 id="title">Syria’s Deepening Crisis</h1>
             <p id="subtitle">The ongoing Syrian conflict has killed tens of thousands of people and brought suffering to millions. The world watches via social media despite occasional crackdowns by the Assad regime.</p>
           </div><!--/titleText-->
           <div id="logoArea" dojotype="dijit.layout.ContentPane" region="right">
@@ -134,8 +134,15 @@
             <div id="socialTab" class="layerTab" onclick="showSocialMedia()">Social Media</div>
           </div><!--/legendHeader-->
           <div id="legendPanel">
-            <div id="placeLegend" class="legend"><span class="boldUnderline">Zoom out</span> to explore city and refugee information. <span class="boldUnderline">Zoom in</span> for detail about conflict areas, archeological sites, military installations, and more. Zoom further to explore Syria's varied tapestry of dense urban enclaves, irrigated farms, and desert reaches.</div>
-            <div id="socialLegend" class="legend" style="display:none;">View recent YouTube videos and Flickr photos. The photos cover a variety of topics, while most videos focus on the ongoing conflict. <span class="warning"><strong>Warning:</strong></span> Some of the videos contain graphic images.</div>
+            <div id="placeLegend" class="legend"><span class="boldUnderline">Zoom out</span> to explore city and refugee information. <span class="boldUnderline">Zoom in</span> for conflict areas, archeological sites, military installations, and more. Zoom further to explore Syria’s tapestry of dense urban enclaves, irrigated farms, and desert reaches.
+              <br><br>
+              <img id="legendPlaceLarge" class="legImg" src="images/SyriaLegendPlacesLarge.png" alt="legend">
+              <img id="legendPlaceSmall" class="legImg" src="images/SyriaLegendPlacesSmall.png" alt="legend">
+            </div>
+            <div id="socialLegend" class="legend" style="display:none;">View recent YouTube videos and Flickr photos. The photos cover a variety of topics, while most videos focus on the ongoing conflict. <span class="warning"><strong>Warning:</strong></span> Some of the videos contain graphic images.
+              <br><br>
+              <img id="legendPlaceSmall" class="legImg" src="images/SyriaLegendSocialMedia.png" alt="legend">
+            </div>
           </div><!--/legendPanel-->
         </div><!--/leftPane-->
 

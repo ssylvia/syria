@@ -775,6 +775,15 @@ function webmapReturned(response) {
       showPlacePoints();
     }
   });
+
+  dojo.connect(map,"onExtentChange",function(){
+    if(map.getLevel() > 7){
+      parent.showLargePlaceLegend();
+    }
+    else{
+      parent.showSmallPlaceLegend();
+    }
+  })
 }
 
 function mapIsLoaded(){
