@@ -1385,7 +1385,7 @@ a.mapSubmit:hover, a.mapSubmit:focus {
 }
 
 #homeExtent {
-    display: none;
+    display: block;
     cursor: pointer;
     height: 26px;
     width: 26px;
@@ -1393,7 +1393,7 @@ a.mapSubmit:hover, a.mapSubmit:focus {
 }
 
 #geoLocate {
-    display: none;
+    display: block;
     cursor: pointer;
     height: 23px;
     width: 26px;
